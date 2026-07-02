@@ -4,7 +4,11 @@ const deliverySteps = [
     label: "Ordered",
     description: "Order has been placed and confirmed.",
   },
-
+  { 
+  key: "packed",
+  label: "Packed",
+  description: "Items are packed and ready for dispatch.",
+ },
   {
     key: "dispatched",
     label: "Dispatched",
